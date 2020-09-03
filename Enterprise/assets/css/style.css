@@ -30,7 +30,7 @@ h1,h2,h3,h4,h5,h6{font-family:'Oswald',sans-serif}
 #header .navbar .navbar-nav .nav-item.active .nav-link,#header .navbar .navbar-nav .nav-item .nav-link:hover{background:-webkit-gradient(linear,left top, left bottom,from(rgba(23,189,198,1)),to(rgba(7,74,93,1)));background:-o-linear-gradient(top,rgba(23,189,198,1) 0%,rgba(7,74,93,1) 100%);background:linear-gradient(to bottom,rgba(23,189,198,1) 0%,rgba(7,74,93,1) 100%)}
 
 .heroBanner{padding:40px 0;width:100%;overflow:hidden;position:relative;color:#fff;background:-webkit-gradient(linear,left top, left bottom,from(#04272b),to(rgba(16,32,29,1)));background:-o-linear-gradient(top,#04272b 0%,rgba(16,32,29,1) 100%);background:linear-gradient(to bottom,#04272b 0%,rgba(16,32,29,1) 100%);z-index:1;position:relative}
-.heroBanner:after{content:'';position:absolute;top:0;left:0;right:0;width:100%;background:url(../img/border.png) no-repeat center;height:100px;background-position:center top}
+.heroBanner:after{content:'';position:absolute;top:0;left:0;right:0;width:100%;background:url(../img/border.png) no-repeat center;height:60px;background-position:center top}
 .heroContent h1{font-size:3.2rem;color:#fff}
 .heroContent h2{font-size:1.8rem;color:#fff}
 .heroContent p{font-size:1rem;color:#3fb7c8}
@@ -39,7 +39,7 @@ h1,h2,h3,h4,h5,h6{font-family:'Oswald',sans-serif}
 #heroSlider:hover .swiperNav{border:1px solid #fff}
 #heroSlider .swiperNav:hover{background:#fff;-webkit-box-shadow:0 1px 7px rgba(0,0,0,0.4);box-shadow:0 1px 7px rgba(0,0,0,0.4)}
 #heroSlider .swiperNav:hover:after,#heroSlider .swiperNav:focus:after,#heroSlider .swiperNav:active:after{color:#263238}
-#heroSlider .swiper-container-horizontal>.swiper-pagination-progressbar,#heroSlider .swiper-container-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite{height:2px}
+.swiper-container-horizontal>.swiper-pagination-progressbar,.swiper-container-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite{height:2px}
 .slideBox{display:block;position:relative;color:#fff;z-index:1}
 .slideBox img{width:100%;height:auto}
 .slideBox:after{content:'';position:absolute;top:0;left:0;width:100%;height:100%;z-index:1;background:-webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0,0)),to(rgba(0,0,0,1)));background:-o-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);background:linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%)}
